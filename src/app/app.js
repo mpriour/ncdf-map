@@ -22,7 +22,7 @@
 
 Ext.onReady(function() {
     app = new gxp.Viewer({
-        proxy: "/proxy/?url=",
+        proxy: "geoserver/rest/proxy/?url=",
         portalConfig: {
             layout: "border",
             region: "center",
