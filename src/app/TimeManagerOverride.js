@@ -36,5 +36,5 @@ OpenLayers.Control.TimeManager.prototype.timeExtentsToIntervals = function(exten
         }
         extents = [[min, max, res].join("/")];
     }
-    return this._timeExtentsToIntervals(a);
+    return this._timeExtentsToIntervals(extents);
 };

@@ -17,11 +17,12 @@
  * @require plugins/WMSRasterStylesDialog.js
  * @require RowExpander.js
  * @require TimeManagerOverride.js
+ * @require OpenLayers/TimeAgent/WMS.js
  */
 
 Ext.onReady(function() {
     app = new gxp.Viewer({
-        proxy: "/geoserver/rest/proxy/?url=",
+        proxy: "/proxy/?url=",
         portalConfig: {
             layout: "border",
             region: "center",
